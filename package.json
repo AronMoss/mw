@@ -1,0 +1,23 @@
+{
+  "name": "multiplication-wheels",
+  "version": "1.0.0",
+  "description": "Multiplication Wheels for my passion project",
+  "main": "index.js",
+  "repository": "https://github.com/AronMoss/MultiplicationWheels.git",
+  "author": "Aron",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html -p 8000"
+  },
+  "type": "module",
+  "dependencies": {
+    "kaboom": "^2000.1.8"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.1",
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  },
+  "staticFiles": {
+    "staticPath": "assets/bean.png"
+  }
+}
